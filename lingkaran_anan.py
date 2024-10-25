@@ -7,7 +7,7 @@ st.title('Data Acak yang Berubah Setiap Tombol Ditekan')
 
 def generate_data(n=50):
     """Generates random data for the scatter plot."""
-    return np.random.rand(n, 2) - 1.5, np.random.rand(n) * 0.2 + 0.1  # Size is between 0.1 and 0.3
+    return np.random.rand(n, 2) - 0.5, np.random.rand(n) * 0.2 + 0.1  # Size is between 0.1 and 0.3
 
 
 def plot_data(data, size, colors):

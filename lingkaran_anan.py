@@ -16,8 +16,8 @@ def plot_data():
 
     # Create plot
     fig, ax = plt.subplots(figsize=(10, 10))
-    ax.set_xlim(-1.1, 1.1)
-    ax.set_ylim(-1.1, 1.1)
+    ax.set_xlim(-2.1, 2.1)
+    ax.set_ylim(-2.1, 2.1)
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
     ax.grid(True, linestyle='--', color='lightgray')

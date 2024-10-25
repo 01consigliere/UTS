@@ -47,7 +47,5 @@ st.pyplot(fig)
 if button:
     fig = plot_data()
     st.write('Gambarnya Berubah kan? Coba Tekan Lagi')
-    if button:
-        fig = plot_data()
-        st.write('Berubah Lagi Kan, Selamat Menikmati yaa')
+
 

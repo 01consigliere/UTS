@@ -30,11 +30,11 @@ def plot_data(data, size, colors):
     st.pyplot(fig)
 
 if __name__ == "__main__":
-    data, size = generate_data()
+    data, size = change_data()
     colors = np.random.rand(len(data), 3)  # Generate random colors
     plot_data(data, size, colors)
 
-    if st.button("Generate New Data"):
-        data, size = generate_data()
+    if st.button("Change Data"):
+        data, size = change_data()
         colors = np.random.rand(len(data), 3)  # Generate random colors
         plot_data(data, size, colors)

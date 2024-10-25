@@ -33,8 +33,9 @@ if __name__ == "__main__":
     data, size = generate_data()
     colors = np.random.rand(len(data), 3)  # Generate random colors
     plot_data(data, size, colors)
-
-    if st.button("Change Data"):
+    
+if st.button("Change Data"):
         data, size = generate_data()
         colors = np.random.rand(len(data), 3)  # Generate random colors
         plot_data(data, size, colors)
+   

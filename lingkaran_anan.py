@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 
 st.title('FISIKA KOMPUTASI AWAN :orange_heart:')
-st.header('Anan Maulana (21022607255')
+st.header('Anan Maulana (21022607255)')
 
 # Fungsi untuk membuat grafik
 def plot_data():
@@ -39,7 +39,7 @@ def plot_data():
     return fig
 
 # Create a button
-button = st.button('Perbarui Data')
+button = st.button('Coba Tekan')
 
 fig = plot_data()
 st.pyplot(fig)

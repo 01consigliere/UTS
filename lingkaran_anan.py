@@ -3,7 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
-st.title('Data Acak yang Berubah Setiap Tombol Ditekan')
+st.title('FISIKA KOMPUTASI AWAN :orange_heart:')
+st.sub('Anan Maulana (21022607255')
 
 # Fungsi untuk membuat grafik
 def plot_data():

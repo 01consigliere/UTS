@@ -13,8 +13,8 @@ def generate_data(n=50):
 def plot_data(data, size, colors):
     """Plots the scatter plot with random circles."""
     fig, ax = plt.subplots(figsize=(10, 10))
-    ax.set_xlim(-0.05, 0.05)
-    ax.set_ylim(-0.05, 0.05)
+    ax.set_xlim(-1.05, 1.05)
+    ax.set_ylim(-1.05, 1.05)
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
     ax.set_aspect("equal")

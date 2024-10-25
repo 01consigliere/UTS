@@ -44,5 +44,4 @@ fig = plot_data()
 st.pyplot(fig)
 # If the button is pressed, plot the data
 if button:
-    fig = plot_data()
-    st.pyplot(fig)
+

@@ -9,8 +9,8 @@ st.title('Data Acak yang Berubah Setiap Tombol Ditekan')
 def plot_data():
     # Generate random data
     n = 50
-    x = np.random.uniform(-1, 1, n)
-    y = np.random.uniform(-1, 1, n)
+    x = np.random.uniform(-2, 2, n)
+    y = np.random.uniform(-2, 2, n)
     radius = np.random.uniform(0.05, 0.2, n)
     colors = [plt.cm.get_cmap('tab20')(i) for i in range(n)]
 

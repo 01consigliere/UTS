@@ -7,14 +7,14 @@ st.title('Data Acak yang Berubah Setiap Tombol Ditekan')
 
 def generate_data(n=50):
     """Generates random data for the scatter plot."""
-    return np.random.rand(n, 2) - 0.5, np.random.rand(n) * 0.2 + 0.1  # Size is between 0.1 and 0.3
+    return np.random.rand(n, 2) - 1.5, np.random.rand(n) * 0.2 + 0.1  # Size is between 0.1 and 0.3
 
 
 def plot_data(data, size, colors):
     """Plots the scatter plot with random circles."""
     fig, ax = plt.subplots(figsize=(10, 10))
-    ax.set_xlim(-1.05, 1.05)
-    ax.set_ylim(-1.05, 1.05)
+    ax.set_xlim(-1.00, 1.00)
+    ax.set_ylim(-1.00, 1.00)
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
     ax.set_aspect("equal")
@@ -30,11 +30,11 @@ def plot_data(data, size, colors):
     st.pyplot(fig)
 
 if __name__ == "__main__":
-    data, size = change_data()
+    data, size = generate_data()
     colors = np.random.rand(len(data), 3)  # Generate random colors
     plot_data(data, size, colors)
 
     if st.button("Change Data"):
-        data, size = change_data()
+        data, size = generate_data()
         colors = np.random.rand(len(data), 3)  # Generate random colors
         plot_data(data, size, colors)

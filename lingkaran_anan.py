@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
-st.title('FISIKA KOMPUTASI AWAN :orange_heart:')
+st.title(':chipmunk: FISIKA KOMPUTASI AWAN :chipmunk:')
 st.header('Anan Maulana (21022607255)')
 
 # Fungsi untuk membuat grafik
@@ -46,5 +46,5 @@ st.pyplot(fig)
 # If the button is pressed, plot the data
 if button:
     fig = plot_data()
-    #st.pyplot(fig)
+    st.write('Gambarnya Berubah kan? Coba Tekan Lagi')
 

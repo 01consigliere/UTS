@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 
 st.title(':chipmunk: FISIKA KOMPUTASI AWAN :chipmunk:')
-st.header('Anan Maulana (21022607255)')
+st.header('Anan Maulana (210322607255)')
 
 # Fungsi untuk membuat grafik
 def plot_data():
